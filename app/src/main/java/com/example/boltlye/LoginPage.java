@@ -92,6 +92,8 @@ public class LoginPage extends AppCompatActivity {
                         Toast.makeText(LoginPage.this, "Login Successful", Toast.LENGTH_LONG).show();
 
                         //Open User Profile
+                        startActivity(new Intent(LoginPage.this, HomePage.class));
+
                     } else{
                         firebaseUser.sendEmailVerification();
                         authProfile.signOut();

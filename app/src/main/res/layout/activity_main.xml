@@ -96,7 +96,6 @@
             android:backgroundTint="#918c8c"
             android:hint="Password"
             android:inputType="textPassword"
-            android:maxLength="10"
             android:padding="10dp" />
 
         <EditText
@@ -110,7 +109,6 @@
             android:backgroundTint="#918c8c"
             android:hint="Confirm Password"
             android:inputType="textPassword"
-            android:maxLength="10"
             android:padding="10dp" />
 
         <Button
